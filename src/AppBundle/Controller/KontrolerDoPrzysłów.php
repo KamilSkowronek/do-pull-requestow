@@ -25,7 +25,6 @@ class DefaultController extends Controller
     * <-----------------------------KOKSU-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
     
-    
       /**
      * @Route("/male-zyski.html", name="male-zyski")
      */

@@ -37,6 +37,11 @@ class DefaultController extends Controller
     /*
     * <-----------------------------AREK-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
+    
+    
+    /*
+    * <-----------------------------MICHAŁ----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
+    */
 
 
     /*

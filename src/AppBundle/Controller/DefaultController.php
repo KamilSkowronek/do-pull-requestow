@@ -228,6 +228,13 @@ public function ktopodkimdolkiAction()
     return $this->render('default/kto-pod-kim-dolki.html.twig');
 }
     
+ /**
+     * @Route("/male-zyski.html", name="male-zyski")
+     */
+    public function malezyskiAction()
+    {
+        return $this->render('default/male-zyski.html.twig');
+    }
     
     
     

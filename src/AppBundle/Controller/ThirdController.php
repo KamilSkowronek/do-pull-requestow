@@ -9,129 +9,37 @@ class ThirdController extends Controller
 {
 
     /*
-     * A
+     * PRZYKŁADOWA AKCJA
      */
+
+
     /**
-     * @Route("/nie-rzucaj-perel.html", name="nie-rzucaj-perel")
+     * @Route("/", name="homepage")
      */
-    public function nieRzucajPerelAction()
+    public function indexAction()
     {
-        return $this->render('default/nie-rzucaj-perel.html.twig');
+        return $this->render('default/index.html.twig');
     }
-    /*
-     * B
-     */
 
-    /*
-     * C
-     */
-
-    /*
-     * D
-     */
-
-    /*
-     * E
-     */
-    /**
-     * @Route("/chlop.html", name="chlop")
-     */
-    public function chlopAction()
-    {
-        return $this->render('default/chlop.html.twig');
-    }
-    /*
-     * F
-     */
-
-    /*
-     * G
-     */
-
-    /*
-     * H
-     */
-
-    /*
-     * I
-     */
+   /*
+    * <-----------------------------KOKSU-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
+    */
     
-    /*
-     * J
+   /**
+     * @Route("/male-zyski.html", name="male-zyski")
      */
-
-    /*
-     * K
-     */
-
-    /*
-     * L
-     */
-
-    /*
-     * M
-     */
-
-    /*
-     * N
-     */
-
-    /**
-     * @Route("/nadgorliwosc-gorsza.html", name="nadgorliwosc-gorsza")
-     */
-    public function nadgorliwoscGorszaAction()
+    public function malezyskiAction()
     {
-        return $this->render('default/nadgorliwosc-gorsza.html.twig');
+        return $this->render('default/male-zyski.html.twig');
     }
 
+    /*
+    * <-----------------------------AREK-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
+    */
+
 
     /*
-     * O
-     */
-
-    /*
-     * P
-     */
-
-    /*
-     * Q
-     */
-
-    /*
-     * R
-     */
-
-    /*
-     * S
-     */
-
-    /*
-     * T
-     */
-
-    /*
-     * U
-     */
-
-    /*
-     * V
-     */
-
-    /*
-     * W
-     */
-
-    /*
-     * X
-     */
-
-    /*
-     * Y
-     */
-
-    /*
-     * Z
-     */
-
+    * <-----------------------------BARTUŚ----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
+    */
 
 }

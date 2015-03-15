@@ -9,140 +9,37 @@ class SecondController extends Controller
 {
 
     /*
-     * A
+     * PRZYKŁADOWA AKCJA
      */
+
+
     /**
-    * @Route("/glaszcz-chama.html", name="glaszcz-chama")
+     * @Route("/", name="homepage")
+     */
+    public function indexAction()
+    {
+        return $this->render('default/index.html.twig');
+    }
+
+   /*
+    * <-----------------------------KOKSU-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
-    public function glaszczChamaAction()
+    
+   /**
+     * @Route("/male-zyski.html", name="male-zyski")
+     */
+    public function malezyskiAction()
     {
-        return $this->render('default/glaszcz-chama.html.twig');
+        return $this->render('default/male-zyski.html.twig');
     }
 
     /*
-     * B
-     */
-
-    /*
-     * C
-     */
-
-    /*
-     * D
-     */
-
-    /*
-     * E
-     */
-    
-    /**
-    * @Route("/bo-pic.html", name="bo-pic")
+    * <-----------------------------AREK-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
-    public function bopicAction()
-    {
-        return $this->render('default/bo-pic.html.twig');
-    }
-    /*
-     * F
-     */
-
-    /*
-     * G
-     */
-
-    /*
-     * H
-     */
-
-    /*
-     * I
-     */
-
-    /**
-     * @Route("/idzie-luty.html", name="idzie-luty")
-     */
-    public function idzieLuty()
-    {
-        return $this->render('default/idzie-luty.html.twig');
-    }
-    
-    /*
-     * J
-     */
-
-    /*
-     * K
-     */
-
-    /*
-     * L
-     */
-
-    /**
-     * @Route("/lepiej-zartowac.html", name="lepiej-zartowac")
-     */
-    public function lepiejZartowacAction()
-    {
-        return $this->render('default/lepiej-zartowac.html.twig');
-    }
-
 
 
     /*
-     * M
-     */
-
-    /*
-     * N
-     */
-
-    /*
-     * O
-     */
-
-    /*
-     * P
-     */
-
-    /*
-     * Q
-     */
-
-    /*
-     * R
-     */
-
-    /*
-     * S
-     */
-
-    /*
-     * T
-     */
-
-    /*
-     * U
-     */
-
-    /*
-     * V
-     */
-
-    /*
-     * W
-     */
-
-    /*
-     * X
-     */
-
-    /*
-     * Y
-     */
-
-    /*
-     * Z
-     */
-
+    * <-----------------------------BARTUŚ----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
+    */
 
 }

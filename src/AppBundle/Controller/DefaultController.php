@@ -16,208 +16,144 @@ class DefaultController extends Controller
         return $this->render('default/index.html.twig');
     }
 
-    /**
-     * @Route("/pani-twardowska.html", name="pani-twardowska")
-     */
-    public function paniTwardowskaAction()
-    {
-        return $this->render('default/pani-twardowska.html.twig');
-    }
-
-
     /*
      * A
      */
-
     /**
-     * @Route("/autobiografia.html", name="autobiografia")
-     */
-    public function  autobiografiaAction()
+    * @Route("/czlek-zdechnie.html", name="czlek-zdechnie")
+    */
+    public function czlekZdechnieAction()
     {
-        return $this->render('default/autobiografia.html.twig');
+        return $this->render('default/czlek-zdechnie.html.twig');
     }
 
     /*
      * B
      */
-    
     /**
-     * @Route("/balkanica.html", name="balkanica")
-     */
-    public function balkanicaAction()
+    * @Route("/bogatemu-to.html", name="bogatemu-to")
+    */
+    public function bogatemuToAction()
     {
-        return $this->render('default/balkanica.html.twig');
-    }
-    /**
-     * @Route("/ridingWithTheKing.html", name="Riding with the king")
-     */
-    public function ridingWithTheKingAction()
-    {
-        return $this->render('default/ridingWithTheKing.html.twig');
-    }
-
-    /**
-     * @Route("/ciagle_pada.html", name="ciagle-pada")
-     */
-    public function  ciaglePadaAction()
-    {
-        return $this->render('default/ciagle_pada.html.twig');
+        return $this->render('default/bogatemu-to.html.twig');
     }
     /*
      * C
      */
-/**
-* @Route("/rozkwitaly-paki-bialych.html",name="rozkwitaly-paki-bialych")
-*/
-    public function rozkwitalypakiAction()
-    {
-        return $this->render('default/rozkwitaly-paki-bialych.html.twig');
-    }
-
-
-    /*
-     * D
-     */
 
     /**
-     * @Route("/Dreamer.html", name="Dreamer")
+     * @Route("/D.html", name="D")
      */
-    public function DreamerAction()
+    public function DAction()
     {
-        return $this->render('default/Dreamer.html.twig');
+        return $this->render('default/D.html.twig');
     }
-    
+
     /*
      * E
      */
+    
+    
     /**
-     * @Route("/endless.html", name="Endless")
-     */
-    public function endlessAction()
+    * @Route("/bez-matki.html", name="bez matki")
+    */
+    public function bezmatkiAction()
     {
-        return $this->render('default/endless.html.twig');
+    return $this->render('default/bez-matki.html.twig');
     }
+    
+    
     /*
      * F
      */
     /**
-     * @Route("/bystra-woda.html", name="bystra-woda")
-     */
-    public function  bystraWodaAction()
-    {
-        return $this->render('default/bystra-woda.html.twig');
-    }
-    
-    /**
-    * @Route("/panie-janie.html", name="panie janie")
-    */
-    public function  panieJanieAction()
-    {
-        return $this->render('default/panie-janie.html.twig');
-    }
+ * @Route("/Aby-do-wiosny.html", name="Aby-do-wiosny")
+ */
+    public function AbydowiosnyAction()
+{
+    return $this->render('default/Aby-do-wiosny.html.twig');
+}
 
     /*
      * G
      */
-        /**
- * @Route("/goradol.html", name="goradol")
- */
-public function goradolAction()
-{
-    return $this->render('default/goradol.html.twig');
-}
+
+    /**
+    * @Route("/stare-wino.html", name="stare-wino")
+    */
+    public function stareWinoAction()
+    {
+        return $this->render('default/stare-wino.html.twig');
+    }
+
     /*
      * H
      */
 
+    /**
+    * @Route("/suchy-marzec.html", name="suchy-marzec")
+    */
+    public function suchyMarzecAction()
+    {
+        return $this->render('default/suchy-marzec.html.twig');
+    }
+
     /*
      * I
      */
+    
     /**
-    * @Route("/Iridescent.html", name="iridescent")
+    * @Route("/im-dab-starszy.html", name="im-dab-starszy")
     */
-    public function iridescentAction()
+    public function ImDabStarszyAction()
     {
-       return $this->render('default/Iridescent.html.twig');
-    }
-     /**
-     * @Route("/juvenile.html", name="juvenile")
-     */
-    public function juvenileAction()
-    {
-        return $this->render('default/juvenile.html.twig');
-    }
+    return $this->render('default/im-dab-starszy.html.twig');
+    }   
 
-   
-    /**
- * @Route("/korowody.html", name="korowody")
- */
-public function korowodyAction()
-{
-   
-    return $this->render('default/korowody.html.twig');
-}
-     
+    /*
+     * J
+     */
+
+    /*
+     * K
+     */
 
     /*
      * L
      */
-    /**
-    * @Route("/lato.html", name="lato")
-    */
-    public function latoAction()
-    {
-    return $this->render('default/lato.html.twig');
-    }
 
     /*
      * M
      */
-    /**
-     * @Route("/piosenka-mury.html", name="piosenka-mury")
-     */
-    public function piosenkaMuryAction()
-    {
-        return $this->render('default/piosenka-mury.html.twig');
-    }
 
     /*
      * N
      */
 
-    /**
-     * @Route("/noMoreMrNiceGuy.html", name="noMoreMrNiceGuy")
-     */
-    public function noMoreMrNiceGuyAction()
-    {
-        return $this->render('default/noMoreMrNiceGuy.html.twig');
-    }
-    
-    
     /*
      * O
      */
     
     /**
-     * @Route("/onajestzesnu.html", name="onajestzesnu")
+     * @Route("/glupota-ludzka.html", name="glupota-ludzka")
      */
-    public function onajestzesnuAction()
+    public function glupotaludzkaAction()
     {
-        return $this->render('default/onajestzesnu.html.twig');
+    return $this->render('default/glupota-ludzka.html.twig');
     }
-
+        
     /*
      * P
      */
-    
-     /**
-     * @Route("/pszczolka-maja.html", name="pszczolka-maja")
-     */
-      public function  pszczolkamajaAction()
-      {
-         return $this->render('default/pszczolka-maja.html.twig');
-      }
 
+    /**
+     * @Route("/szewc-bez.html", name="szewc-bez")
+     */
+     public function szewcbezAction()
+     {
+     return $this->render('default/szewc-bez.html.twig');
+     } 
+     
     /*
      * Q
      */
@@ -225,41 +161,25 @@ public function korowodyAction()
     /*
      * R
      */
-    
-    /**
-     * @Route("/rplayboys.html", name="rplayboys")
-     */
-    public function rplayboysAction()
-    {
-        return $this->render('default/rplayboys.html.twig');
-    }
-    
-    /**
-     * @Route("/Stop.html", name="Stop")
-     */
-    public function StopAction()
-    {
-        return $this->render('default/Stop.html.twig');
-    }
 
     /**
+     * @Route("/co-za-duzo.html", name="co-za-duzo")
+     */
+      public function coZaDuzoAction()
+     {
+     return $this->render('default/co-za-duzo.html.twig');
+     } 
+      
+    /*
      * S
      */
-
     /**
-     * @Route("/cash-hurt.html", name="cash-hurt")
+     * @Route("/jak-sobie.html", name="jak-sobie")
      */
-    public function cashhurtAction() {
-        return $this->render('default/cash-hurt.html.twig');
+    public function jakSobieAction()
+    {
+        return $this->render('default/jak-sobie.html.twig');
     }
-
-    /**
-     * @Route("/qotsa-first.html", name="qotsa-first")
-     */
-    public function qotsafirstAction() {
-        return $this->render('default/qotsa-first.html.twig');
-    }
-
     /*
      * T
      */
@@ -273,40 +193,49 @@ public function korowodyAction()
      */
 
     /**
-     * @Route("/sen-o-victorii.html", name="sen-o-victorii")
+     * @Route("/gdzie-sie-z-checia.html", name="gdzie-sie-z-checia")
      */
-    public function senOVictoriiAction() {
-        return $this->render('default/sen-o-victorii.html.twig');
+    public function gdzieSieZCheciaAction()
+    {
+        return $this->render('default/gdzie-sie-z-checia.html.twig');
     }
 
     /*
      * W
      */
-/**
- * @Route("/whisky.html", name="whisky")
- */
-public function  whiskyAction()
-{
-    return $this->render('default/whisky.html.twig');
-}
+
     /*
      * X
      */
+    
+    /**
+    * @Route("/regula-prosta.html", name="regula-prosta")
+    */
+    public function regulaprostaAction()
+    {
+        return $this->render('default/regula-prosta.html.twig');
+    }
 
     /*
      * Y
      */
+    
+    /**
+ * @Route("/kto-pod-kim-dolki.html", name="kto-pod-kim-dolki")
+ */
+public function ktopodkimdolkiAction()
+{
+    return $this->render('default/kto-pod-kim-dolki.html.twig');
+}
+    
+    
+    
+    
+    
 
     /*
      * Z
      */
-/**
- * @Route("/Senowarszawie.html", name="Senowarszawie")
- */
-public function  SenowarszawieAction()
-{
-    return $this->render('default/Senowarszawie.html.twig');
-}
 
 
 }

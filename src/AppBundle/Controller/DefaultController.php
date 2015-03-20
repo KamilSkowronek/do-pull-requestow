@@ -52,8 +52,7 @@ class DefaultController extends Controller
     /*
      * E
      */
-    
-    
+
     /**
     * @Route("/bez-matki.html", name="bez matki")
     */
@@ -61,8 +60,7 @@ class DefaultController extends Controller
     {
     return $this->render('default/bez-matki.html.twig');
     }
-    
-    
+
     /*
      * F
      */
@@ -101,14 +99,14 @@ class DefaultController extends Controller
     /*
      * I
      */
-    
+
     /**
     * @Route("/im-dab-starszy.html", name="im-dab-starszy")
     */
     public function ImDabStarszyAction()
     {
     return $this->render('default/im-dab-starszy.html.twig');
-    }   
+    }
 
     /*
      * J
@@ -133,7 +131,7 @@ class DefaultController extends Controller
     /*
      * O
      */
-    
+
     /**
      * @Route("/glupota-ludzka.html", name="glupota-ludzka")
      */
@@ -141,7 +139,7 @@ class DefaultController extends Controller
     {
     return $this->render('default/glupota-ludzka.html.twig');
     }
-        
+
     /*
      * P
      */
@@ -152,8 +150,8 @@ class DefaultController extends Controller
      public function szewcbezAction()
      {
      return $this->render('default/szewc-bez.html.twig');
-     } 
-     
+     }
+
     /*
      * Q
      */
@@ -168,8 +166,8 @@ class DefaultController extends Controller
       public function coZaDuzoAction()
      {
      return $this->render('default/co-za-duzo.html.twig');
-     } 
-      
+     }
+
     /*
      * S
      */
@@ -207,7 +205,7 @@ class DefaultController extends Controller
     /*
      * X
      */
-    
+
     /**
     * @Route("/regula-prosta.html", name="regula-prosta")
     */
@@ -219,7 +217,7 @@ class DefaultController extends Controller
     /*
      * Y
      */
-    
+
     /**
  * @Route("/kto-pod-kim-dolki.html", name="kto-pod-kim-dolki")
  */
@@ -227,7 +225,7 @@ public function ktopodkimdolkiAction()
 {
     return $this->render('default/kto-pod-kim-dolki.html.twig');
 }
-    
+
  /**
      * @Route("/male-zyski.html", name="male-zyski")
      */
@@ -236,13 +234,16 @@ public function ktopodkimdolkiAction()
         return $this->render('default/male-zyski.html.twig');
     }
     
-    
-    
-    
+    /**
+     * @Route("/nopain-nogain.html", name="nopain-nogain")
+     */
+    public function nopainnogainAction()
+    {
+        return $this->render('default/nopain-nogain.html.twig');
+    }
 
     /*
      * Z
      */
-
 
 }

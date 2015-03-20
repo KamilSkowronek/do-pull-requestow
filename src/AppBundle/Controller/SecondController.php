@@ -34,7 +34,7 @@ class SecondController extends Controller
     /*
      * E
      */
-    
+
     /**
     * @Route("/bo-pic.html", name="bo-pic")
     */
@@ -65,7 +65,7 @@ class SecondController extends Controller
     {
         return $this->render('default/idzie-luty.html.twig');
     }
-    
+
     /*
      * J
      */
@@ -85,8 +85,6 @@ class SecondController extends Controller
     {
         return $this->render('default/lepiej-zartowac.html.twig');
     }
-
-
 
     /*
      * M
@@ -143,6 +141,5 @@ class SecondController extends Controller
     /*
      * Z
      */
-
 
 }

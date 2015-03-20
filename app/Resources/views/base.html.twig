@@ -13,11 +13,13 @@
 
     </head>
     <body>
-        {% block body %}{% endblock %}
-
-        <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
-        <script src="{{ asset('js/jquery.js') }}"></script>
-        <!-- Include all JavaScripts, compiled by Assetic -->
-        <script src="{{ asset('js/bootstrap.js') }}"></script>
-    </body>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ path('nopain-nogain') }}"> nopain-nogain </a>
+            </li>
+        </ul>
+    </nav>
+    {% block body %}{% endblock %}
+</body>
 </html>

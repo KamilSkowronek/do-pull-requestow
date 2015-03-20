@@ -5,13 +5,12 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class KontrolerDoPrzysłów extends Controller
 {
 
     /*
      * PRZYKŁADOWA AKCJA
      */
-
 
     /**
      * @Route("/", name="homepage")
@@ -24,7 +23,7 @@ class DefaultController extends Controller
    /*
     * <-----------------------------KOKSU-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
-    
+
    /**
      * @Route("/male-zyski.html", name="male-zyski")
      */
@@ -36,7 +35,6 @@ class DefaultController extends Controller
     /*
     * <-----------------------------AREK-----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)
     */
-
 
     /*
     * <-----------------------------BARTUŚ----------------------------> (ROBISZ 2 ENTERY POD SPODEM I WRZUCASZ AKCJE)

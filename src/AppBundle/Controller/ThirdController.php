@@ -55,7 +55,7 @@ class ThirdController extends Controller
     /*
      * I
      */
-    
+
     /*
      * J
      */
@@ -83,7 +83,6 @@ class ThirdController extends Controller
     {
         return $this->render('default/nadgorliwosc-gorsza.html.twig');
     }
-
 
     /*
      * O
@@ -132,6 +131,5 @@ class ThirdController extends Controller
     /*
      * Z
      */
-
 
 }
